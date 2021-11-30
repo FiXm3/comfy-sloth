@@ -1,5 +1,7 @@
 import React from 'react'
 import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi'
+import { img1 } from '../assets/hero-bcg.jpeg'
+
 export const links = [
   {
     id: 1,
