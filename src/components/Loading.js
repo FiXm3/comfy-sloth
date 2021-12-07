@@ -2,7 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Loading = () => {
-  return <div className='loading'></div>;
+  return (
+  <Wrapper className='page-100'>
+    <div className='loading'></div>;
+  </Wrapper> 
+  )
 };
+
+const Wrapper = styled.div`
+
+`
 
 export default Loading;
